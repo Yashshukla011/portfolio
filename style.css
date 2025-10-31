@@ -35,6 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+  
 }
 
 .logo {
@@ -420,7 +421,7 @@ section {
   flex: 1;
 }
 
-/* Headings */
+
 .skills-container h2 {
   text-align: center;
   margin-bottom: 30px;
@@ -546,7 +547,7 @@ section {
   to { stroke-dashoffset: var(--percent); }
 }
 
-/* Radial inside text */
+
 .radial-bar .percentage {
   position: absolute;
   top: 50%;
@@ -680,7 +681,7 @@ section {
     align-items: flex-start;
     gap: 3rem;
     padding: 50px;
-    /* margin-top: 00px; */
+    
 }
 
 .contact-text h2 {
@@ -780,14 +781,14 @@ section {
     background: cyan;
     box-shadow: 0 0 20px cyan;
 }
-/* Home layout */
+
 .home {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   padding: 60px 10%;
-  flex-wrap: wrap; /* ✅ allows stacking on smaller screens */
+  flex-wrap: wrap;
 }
 
 .home-content {
@@ -829,7 +830,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 80px 10%;
-  flex-wrap: wrap; /* ✅ important for responsiveness */
+  flex-wrap: wrap; 
 }
 
 .about {
@@ -838,7 +839,7 @@ section {
   gap: 2rem;
 }
 
-/* ========== RESET ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -855,14 +856,14 @@ body {
   background: #000;
 }
 
-/* ========== HEADER ========== */
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: #081b29;
+  background: #09273d;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1094,8 +1095,10 @@ margin-left: 80px;
 }
 
 .home-content {
-  flex: 1;
+  flex: 3;
   min-width: 380px;
+  justify-content: space-between;
+  margin-right: 52px;
 }
 
 .home-img img {
@@ -1104,9 +1107,8 @@ margin-left: 80px;
   border-radius: 50%;
   display: flex;
   margin: 20px auto;
-  
-
-}
+   margin-left: 50px;
+ } 
 
 
 .about {
@@ -1142,6 +1144,7 @@ margin-left: 80px;
   .home {
     flex-direction: column;
     text-align: center;
+   
   }
   .about {
     flex-direction: column;
@@ -1163,7 +1166,7 @@ margin-left: 80px;
     grid-template-columns: 1fr;
   }
 }
-/* Header base */
+
 .header {
   position: fixed;
   top: 0;
@@ -1243,15 +1246,15 @@ margin-left: 80px;
   }
 }
 .services-list {
-  display: flex;               /* Use flex layout */
-  flex-wrap: wrap;             /* allow wrapping on smaller screens */
-  justify-content: space-between; /* spacing between boxes */
-  gap: 30px;                   /* space between items */
+  display: flex;              
+  flex-wrap: wrap;            
+  justify-content: space-between; 
+  gap: 30px;                  
   padding: 50px 5%;
 }
 
 .services-list div {
-  flex: 1 1 250px;             /* flexible box: min width 250px, grow as needed */
+  flex: 1 1 250px;        
   background: transparent;
   padding: 30px;
   border-radius: 20px;
