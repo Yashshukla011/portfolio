@@ -806,7 +806,7 @@ section {
   border-radius: 300px;
 }
 
-/* Responsive breakpoints */
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -1090,7 +1090,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* allow wrap on smaller screens */
+  flex-wrap: wrap;
 margin-left: 80px;
 }
 
@@ -1107,7 +1107,7 @@ margin-left: 80px;
   border-radius: 50%;
   display: flex;
   margin: 20px auto;
-   margin-left: 50px;
+  
  } 
 
 
@@ -1131,7 +1131,6 @@ margin-left: 80px;
   min-width: 280px;
 }
 
-/* Services Section */
 .services-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1139,7 +1138,7 @@ margin-left: 80px;
   padding: 20px;
 }
 
-/* Responsive Breakpoints */
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -1203,7 +1202,7 @@ margin-left: 80px;
   color: #00eaff;
 }
 
-/* Hide menu icon by default */
+
 .menu-icon {
   display: none;
   font-size: 28px;
@@ -1211,7 +1210,7 @@ margin-left: 80px;
   cursor: pointer;
 }
 
-/* Responsive: mobile menu */
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -1230,9 +1229,9 @@ margin-left: 80px;
     transition: max-height 0.3s ease-in-out;
   }
 
-  /* Checkbox hack for toggle */
+
   #menu-toggle:checked ~ .navbar {
-    max-height: 300px; /* show menu */
+    max-height: 300px; 
   }
 }
 @media (max-width: 768px) {
@@ -1242,7 +1241,7 @@ margin-left: 80px;
   }
 
   .services-list div {
-    flex: 1 1 80%; /* width reduces on mobile */
+    flex: 1 1 80%; 
   }
 }
 .services-list {
